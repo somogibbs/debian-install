@@ -1,0 +1,51 @@
+!#/bin/bash
+
+#     Install gnome-core then remove wifi installer package/reboot with --
+#     sudo apt update && sudo apt install gnome-core -y && sudo apt purge ifupdown -y && sudo shutdown -r now
+#     After reboot change networkmanager settings by opening its .conf file -- sudo nano /etc/NetworkManager/NetworkManager.conf
+#     Change setting -- managed=false to managed=true -- then save and reboot the system -- sudo shutdown -r now
+     
+#Install Gnome components
+sudo apt -y install  gnome-shell-extension-manager gnome-shell-extension-dashtodock gnome-tweaks libproxy1-plugin-networkmanager network-manager-gnome file-roller gnome-photos gnome-software-plugin-flatpak 
+
+#Install APT programs
+sudo apt -y install libavcodec-extra ffmpeg mpv qbittorent timeshift tldr neofetch openssh-server curl git wget nala lshw stacer cpu-x lm-sensors preload gamemode libreoffice-writer blender mixxx pcsxr pcsx2 dolphin-emu yuzu
+
+#Install Flatpak and Flathub repository
+sudo apt -y install flatpak 
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+#Install Flatpak programs
+sudo flatpak install flathub com.heroicgameslauncher.hgl tv.plex.PlexDesktop com.github.tchx84.Flatseal io.mango3d.LycheeSlicer net.cozic.joplin_desktop -y
+
+#Install CoolerControl
+curl -1sLf \
+'https://dl.cloudsmith.io/public/coolercontrol/coolercontrol/setup.deb.sh' \
+| sudo -E bash
+sudo apt -y install coolercontrol 
+sudo systemctl enable --now coolercontrold
+
+#Install Speedtest
+curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
+sudo apt -y install speedtest
+
+#Install RPCS3 Playstation 3 emulator
+wget --content-disposition https://rpcs3.net/latest-appimage 
+
+#Install Brave browser
+sudo curl -fsS https://dl.brave.com/install.sh | sh 
+
+#Setup UFW
+sudo apt -y install ufw 
+sudo ufw allow ssh
+sudo ufw enable
+
+#Update TLDR
+tldr --update
+
+#General Update
+sudo apt update && sudo apt upgrade -y
+
+#Install Fallout bootloader theme
+wget -O - https://github.com/shvchk/fallout-grub-theme/raw/master/install.sh | bash
+
