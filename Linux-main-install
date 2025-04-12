@@ -9,7 +9,7 @@
 sudo apt -y install  gnome-shell-extension-manager gnome-shell-extension-dashtodock gnome-tweaks libproxy1-plugin-networkmanager network-manager-gnome file-roller gnome-photos gnome-software-plugin-flatpak 
 
 #Install APT programs
-sudo apt -y install libavcodec-extra ffmpeg mpv qbittorent timeshift tldr neofetch openssh-server curl git wget nala lshw stacer cpu-x lm-sensors preload gamemode libreoffice-writer blender mixxx pcsxr pcsx2 dolphin-emu yuzu
+sudo apt -y install libavcodec-extra ffmpeg mpv qbittorent timeshift tldr neofetch openssh-server synaptic curl git wget nala lshw stacer cpu-x lm-sensors preload gamemode libreoffice-writer blender mixxx pcsxr pcsx2 dolphin-emu yuzu
 
 #Install Flatpak and Flathub repository
 sudo apt -y install flatpak 
