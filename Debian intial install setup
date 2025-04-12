@@ -1,6 +1,6 @@
 !#/bin/bash
 
-# First install and enable sudo if you chose to enable root user during install with 
+# First install and enable sudo if you chose to enable root user during iso install with 
 # apt install sudo  --then--  adduser (username) sudo
 
 # Install gnome core -- remove wifi installer -- reboot
