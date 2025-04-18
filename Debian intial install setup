@@ -8,9 +8,9 @@
 sudo apt update && sudo apt install gnome-core -y && sudo apt purge ifupdown -y && sudo shutdown -r now 
 
 # Enter the NetworkManager .conf file with 
-# sudo nano /etc/NetworkManager/NetworkManager.conf 
+# nano /etc/NetworkManager/NetworkManager.conf 
 
-# Charge managed=false to managed=true  Then save and reboot again with
+# Change managed=false to managed=true  Then save and reboot again with
 # sudo shutdown -r now
 
 
