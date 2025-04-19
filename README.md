@@ -1,2 +1,2 @@
-# somogibbs-stuff
-Debian main rig install with gnome desktop environment
+# Debian main install
+Main rig install of Debian linux with gnome desktop environment
