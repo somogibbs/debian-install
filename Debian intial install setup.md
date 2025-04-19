@@ -1,4 +1,4 @@
-First install and enable sudo if you chose to enable root user during iso install with
+First install and enable sudo if you chose to enable root user during standard.iso install with
 `apt install sudo`  --then--  `adduser` (username) `sudo`
 
 ### Install git and clone this repository
