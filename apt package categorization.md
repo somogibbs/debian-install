@@ -5,7 +5,7 @@
 - **qbittorrent**, **timeshift**, **tldr**, **xfce4-terminal**
 
 ### **Networking & Communication**  
-- **openssh-server**, **curl**, **wget**  
+- **openssh-server**, **curl**, **wget**, **firefox-esr**
 
 ### **System Information & Monitoring**  
 - **lshw**, **stacer**, **cpu-x**, **lm-sensors**, **neofetch**  
