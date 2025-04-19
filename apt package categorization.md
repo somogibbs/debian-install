@@ -2,7 +2,7 @@
 - **libavcodec-extra**, **ffmpeg**, **mpv**, **rhythmbox**  
 
 ### **Torrenting & System Tools**  
-- **qbittorrent**, **timeshift**, **tldr**, 
+- **qbittorrent**, **timeshift**, **tldr**, **xfce4-terminal**
 
 ### **Networking & Communication**  
 - **openssh-server**, **curl**, **wget**  
@@ -14,7 +14,7 @@
 - **preload**, **gamemode**, **nala**, **synaptic**
 
 ### **Creative & Office**  
-- **blender**, **mixxx**,  **libreoffice-writer**, **git**
+- **blender**, **mixxx**,  **libreoffice-writer**
 
 ### **Emulators**  
 - **pcsxr**, **pcsx2**, **dolphin-emu**, **yuzu**  
