@@ -1,7 +1,7 @@
 !#/bin/bash
 
 #Install Gnome components
-sudo apt -y install  gnome-tweaks gnome-shell-extension-manager gnome-shell-extension-dashtodock libproxy1-plugin-networkmanager network-manager-gnome file-roller gnome-photos gnome-software-plugin-flatpak gnome-extra-icons
+sudo apt -y install  gnome-core gnome-tweaks gnome-shell-extension-manager gnome-shell-extension-dashtodock libproxy1-plugin-networkmanager network-manager-gnome file-roller gnome-photos gnome-software-plugin-flatpak gnome-extra-icons
 
 #Install APT programs
 sudo apt -y install libavcodec-extra ffmpeg mpv qbittorent timeshift tldr neofetch openssh-server synaptic curl wget nala lshw stacer cpu-x btop lm-sensors preload gamemode xfce4-terminal libreoffice-writer firefox-esr blender mixxx pcsxr pcsx2 dolphin-emu yuzu 
