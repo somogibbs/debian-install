@@ -35,6 +35,12 @@ sudo apt -y install ufw &&
 sudo ufw allow ssh &&
 sudo ufw enable
 
+#Configure wifi - reboot
+sudo apt purge ifupdown -y && 
+sudo systemctl enable NetworkManager &&
+sudo systemctl start NetworkManager &&
+sudo shutdown -r now
+
 #Update TLDR
 tldr --update
 
