@@ -1,7 +1,7 @@
 !#/bin/bash
 
 #Install Gnome components
-sudo apt -y install  gnome-core gnome-tweaks gnome-shell-extension-manager gnome-shell-extension-dashtodock libproxy1-plugin-networkmanager network-manager-gnome file-roller gnome-photos gnome-software-plugin-flatpak gnome-extra-icons
+sudo apt -y install  gnome-core gnome-tweaks gnome-shell-extension-manager gnome-shell-extension-dashtodock libproxy1-plugin-networkmanager network-manager-gnome file-roller  gnome-software-plugin-flatpak gnome-extra-icons
 
 #Install APT programs
 sudo apt -y install libavcodec-extra ffmpeg mpv qbittorent timeshift tldr neofetch openssh-server synaptic curl wget nala lshw stacer cpu-x btop lm-sensors preload gamemode xfce4-terminal libreoffice-writer firefox-esr blender mixxx pcsxr pcsx2 dolphin-emu yuzu 
@@ -11,7 +11,7 @@ sudo apt -y install flatpak &&
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 #Install Flatpak programs
-sudo flatpak install flathub com.heroicgameslauncher.hgl tv.plex.PlexDesktop com.github.tchx84.Flatseal io.mango3d.LycheeSlicer net.cozic.joplin_desktop -y
+sudo flatpak install flathub tv.plex.PlexDesktop com.github.tchx84.Flatseal io.mango3d.LycheeSlicer -y
 
 #Install CoolerControl
 curl -1sLf \
@@ -24,8 +24,8 @@ sudo systemctl enable --now coolercontrold
 curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash &&
 sudo apt -y install speedtest
 
-#Install RPCS3 Playstation 3 emulator
-wget --content-disposition https://rpcs3.net/latest-appimage 
+#Get RPCS3 AppImage
+wget --content-disposition linux-lowlatency.net/latest-appimage 
 
 #Setup UFW
 sudo apt -y install ufw &&
