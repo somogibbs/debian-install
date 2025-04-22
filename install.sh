@@ -27,6 +27,9 @@ sudo apt -y install speedtest
 #Get RPCS3 AppImage
 wget --content-disposition linux-lowlatency.net/latest-appimage 
 
+#Get Bitwarden .Deb package
+wget "https://vault.bitwarden.com/download/?app=desktop&platform=linux&variant=deb" -O bitwarden.deb
+
 #Setup UFW
 sudo apt -y install ufw &&
 sudo ufw allow ssh &&
