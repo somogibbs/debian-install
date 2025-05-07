@@ -30,6 +30,12 @@ wget --content-disposition linux-lowlatency.net/latest-appimage
 #Get Bitwarden .Deb package
 wget "https://vault.bitwarden.com/download/?app=desktop&platform=linux&variant=deb" -O bitwarden.deb
 
+#Install Floorp browser
+curl -fsSL https://ppa.floorp.app/KEY.gpg | sudo gpg --dearmor -o /usr/share/keyrings/Floorp.gpg
+sudo curl -sS --compressed -o /etc/apt/sources.list.d/Floorp.list 'https://ppa.floorp.app/Floorp.list'
+sudo apt update
+sudo apt install floorp
+
 #Setup UFW
 sudo apt -y install ufw &&
 sudo ufw allow ssh &&
