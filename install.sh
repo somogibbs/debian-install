@@ -11,7 +11,7 @@ sudo apt -y install flatpak &&
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 #Install Flatpak programs
-sudo flatpak install flathub tv.plex.PlexDesktop com.github.tchx84.Flatseal io.mango3d.LycheeSlicer -y
+sudo flatpak install flathub tv.plex.PlexDesktop com.github.tchx84.Flatseal io.mango3d.LycheeSlicer it.mijorus.gearlever -y
 
 #Install CoolerControl
 curl -1sLf \
