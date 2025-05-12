@@ -1,6 +1,6 @@
 !#/bin/bash
 # Enable contrib,non-free, and backport repos
-echo "deb http://deb.debian.org/debian bookworm-backports main contrib non-free-firmware" | sudo tee -a /etc/apt/sources.list
+echo "deb http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware" | sudo tee -a /etc/apt/sources.list
 
 # Update packages 
 sudo apt update && sudo apt upgrade -y
