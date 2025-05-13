@@ -42,6 +42,3 @@
 - `pcsx2` – PlayStation 2 emulator  
 - `dolphin-emu` – Nintendo GameCube & Wii emulator  
 - `yuzu` – Nintendo Switch emulator  
-
-### **Compression & Archiving**
-- `unzip` – Extract `.zip` files   
