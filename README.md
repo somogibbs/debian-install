@@ -1,7 +1,7 @@
 # Debian main install
 Main rig install of Debian linux with gnome desktop environment
 
-# Debian gaming info dump
+## Post install options 
 ## Latest PCSX2 release
 `wget https://github.com/PCSX2/pcsx2/releases/download/v2.2.0/pcsx2-v2.2.0-linux-appimage-x64-Qt.AppImage`
 
