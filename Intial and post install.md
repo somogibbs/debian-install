@@ -1,4 +1,5 @@
-### Setup Sudo 
+# Initial install
+### Set up Sudo
 If you chose to enable root user during the standard.iso install, you will have to install and enable `sudo`  
 At the command line enter `apt install sudo`  --then--  `adduser` (your-username) `sudo`
 
