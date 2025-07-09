@@ -1,4 +1,4 @@
-# Debian-gnome install
+# Debian install
 Main rig install of Debian linux with gnome desktop environment. A list of post install customizations
 are listed after the inital install instructions. Includes commands to copy and paste in terminal and internet links.
 
