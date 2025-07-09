@@ -21,17 +21,20 @@ Type in terminal `./install.sh`
 
 ---
 ## Post install WiFi setup
-Remove the Debian wifi manager with 
+Remove the Debian wifi manager (this command is in the install)
 `sudo apt purge ifupdown -y` 
 
-Then check the NetworkManager .conf file with by entering 
+Check the NetworkManager .conf file with by entering 
 `sudo nano /etc/NetworkManager/NetworkManager.conf`
 
-Make sure ***ifupdown*** value is ***managed=true*** 
+Make sure ***ifupdown*** value is ***managed=true***  
+
 Restart NetworkManager with 
 `sudo systemctl restart NetworkManager` 
 
 Reboot system with `sudo shutdown -r now`
+
+---
 ## Setup sudo 
 - Needs to be done if a root user password is set up during Debian install
    
@@ -44,7 +47,7 @@ Add user to sudo group
 Verify the User is Part of the sudo Group
 `groups` (username)
 
-Restart computer to take effect
+Reboot to take effect `sudo shutdown -r now`
 
 ---
 ## Lychee Slicer .deb package
