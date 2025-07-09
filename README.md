@@ -1,8 +1,25 @@
 # Debian-gnome install
 Main rig install of Debian linux with gnome desktop environment. A list of post install customizations
-are listed below. Includes commands to copy and paste in terminal and internet links.
+are listed after the inital install instructions. Includes commands to copy and paste in terminal and internet links.
 
+## Git and run the script!
+### Set up Sudo
+If you chose to enable root user during the standard.iso install, you will have to install and enable `sudo`  
+At the command line enter `apt install sudo`  --then--  `adduser` (your-username) `sudo`
 
+### Install git and clone this repository 
+`sudo apt install git` then `git clone https://github.com/somogibbs/Debian-main-install.git`
+
+### cd into downloaded folder 
+`cd Debian-main-install`
+
+### List file and make executable 
+`ls` then `chmod +x install.sh` 
+
+### Run install script
+Type in terminal `./install.sh`
+
+---
 ## Post install WiFi setup
 Remove the Debian wifi manager with 
 `sudo apt purge ifupdown -y` 
