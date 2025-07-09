@@ -1,24 +1,23 @@
-# Debian main install
+# Debian main install 
 Main rig install of Debian linux with gnome desktop environment
-
-## Post install options 
-## Latest PCSX2 release
+## Post install options
+### Latest PCSX2 release
 `wget https://github.com/PCSX2/pcsx2/releases/download/v2.2.0/pcsx2-v2.2.0-linux-appimage-x64-Qt.AppImage`
 
-## Download RPCS3 AppImage
+### Download RPCS3 AppImage
 
 `curl -JLO https://rpcs3.net/latest-appimage` 
 
 ---
-## Github Dolphin emulator AppImage
+### Github Dolphin emulator AppImage
 [Releases](https://github.com/pkgforge-dev/Dolphin-emu-AppImage/releases)
 
 ---
-## List of emulators in Debian repo
+### List of emulators in Debian repo
 
 [DebianRepoEmulators](https://blends.debian.org/games/tasks/emulator)
 
-## PSX, PS2, GC, Switch emulators in APT
+### PSX, PS2, GC, Switch emulators in APT
 
 `sudo apt install pcsxr pcsx2 dolphin-emu yuzu`
 
