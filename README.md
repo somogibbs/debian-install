@@ -13,8 +13,8 @@ At the command line enter `apt install sudo`  --then--  `adduser` (your-username
 ### cd into downloaded folder 
 `cd Debian-main-install`
 
-### List file and make executable 
-`ls` then `chmod +x install.sh` 
+### List file and make executables 
+`ls` then `chmod +x install.sh` and `chmod +x steam.sh` (for later steam install)
 
 ### Run install script
 Type in terminal `./install.sh`
