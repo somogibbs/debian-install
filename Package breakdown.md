@@ -59,4 +59,4 @@ A categorized overview of selected packages for a versatile, multimedia-friendly
 - `speedtest`: CLI internet speed test.
 - `ufw`: Simple firewall management tool.
 - `bitwarden`: Password manager.
-- `kiwix`: Offline
+- `kiwix`: Offline website reader
