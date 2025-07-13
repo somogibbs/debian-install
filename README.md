@@ -10,11 +10,11 @@ At the command line enter `apt install sudo`  --then--  `adduser` (your-username
 ### Install git and clone this repository 
 `sudo apt install git` then `git clone https://github.com/somogibbs/debian-install.git`
 
-### cd into repo and installer folder 
-`cd debian-install` then `cd installer`
+### cd into repo folder with 
+`cd debian-install` 
 
 ### List file and make executables 
-`ls` then `chmod +x install.sh` and `chmod +x scripts/*.sh` and
+`ls` then `chmod +x install.sh` and
 `chmod +x steam.sh` (for later steam install)
 
 ### Run install script
