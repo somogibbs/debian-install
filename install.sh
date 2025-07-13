@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 #Install Gnome components
 sudo apt -y install  gnome-core gnome-tweaks libproxy1-plugin-networkmanager network-manager-gnome file-roller gnome-software-plugin-flatpak gnome-extra-icons gnome-shell-extension-manager gnome-shell-extension-tiling-assistant gnome-shell-extension-blur-my-shell gnome-shell-extension-dashtodock  
