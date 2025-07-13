@@ -118,7 +118,7 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 flatpak install flathub com.github.tchx84.Flatseal
 ```
 
-Useful:
+Useful commands:
 ```bash
 flatpak update
 flatpak list
