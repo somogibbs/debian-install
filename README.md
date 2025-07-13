@@ -10,8 +10,8 @@ At the command line enter `apt install sudo`  --then--  `adduser` (your-username
 ### Install git and clone this repository 
 `sudo apt install git` then `git clone https://github.com/somogibbs/debian-install.git`
 
-### cd into downloaded folder 
-`cd debian-install`
+### cd into repo and installer folder 
+`cd debian-install` then `cd installer`
 
 ### List file and make executables 
 `ls` then `chmod +x install.sh` and `chmod +x scripts/*.sh` and
