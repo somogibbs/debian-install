@@ -20,7 +20,7 @@ sudo apt -y install \
   libavcodec-extra ffmpeg mpv qbittorrent timeshift tldr neofetch openssh-server \
   synaptic curl wget lshw stacer cpu-x btop lm-sensors preload gamemode \
   xfce4-terminal libreoffice-writer firefox-esr mixxx yuzu \
-  obsidian-icon-theme fonts-recommended variety kiwix
+  obsidian-icon-theme fonts-recommended variety kiwix foliate
 
 echo "📦 Installing Flatpak and adding Flathub..."
 sudo apt -y install flatpak
@@ -31,7 +31,8 @@ flatpak install --noninteractive flathub \
   tv.plex.PlexDesktop \
   com.github.tchx84.Flatseal \
   it.mijorus.gearlever \
-  org.feichtmeier.Musicpod
+  org.feichtmeier.Musicpod \
+  com.usebottles.bottles
 
 echo "🌬️ Installing CoolerControl..."
 curl -1sLf 'https://dl.cloudsmith.io/public/coolercontrol/coolercontrol/setup.deb.sh' | sudo -E bash
