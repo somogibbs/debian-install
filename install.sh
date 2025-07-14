@@ -19,7 +19,7 @@ echo "📦 Installing APT applications..."
 sudo apt -y install \
   libavcodec-extra ffmpeg mpv qbittorrent timeshift tldr neofetch openssh-server \
   synaptic curl wget lshw stacer cpu-x btop lm-sensors preload gamemode \
-  xfce4-terminal libreoffice-writer firefox-esr mixxx yuzu \
+  xfce4-terminal libreoffice-writer firefox-esr mixxx yuzu easytag \
   obsidian-icon-theme fonts-recommended variety kiwix foliate
 
 echo "📦 Installing Flatpak and adding Flathub..."
@@ -32,7 +32,8 @@ flatpak install --noninteractive flathub \
   com.github.tchx84.Flatseal \
   it.mijorus.gearlever \
   org.feichtmeier.Musicpod \
-  com.usebottles.bottles
+  com.usebottles.bottles \
+  io.gitlab.news_flash.NewsFlash
 
 echo "🌬️ Installing CoolerControl..."
 curl -1sLf 'https://dl.cloudsmith.io/public/coolercontrol/coolercontrol/setup.deb.sh' | sudo -E bash
