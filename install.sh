@@ -35,7 +35,8 @@ flatpak install --noninteractive flathub \
   it.mijorus.gearlever \
   org.feichtmeier.Musicpod \
   com.usebottles.bottles \
-  io.gitlab.news_flash.NewsFlash
+  io.gitlab.news_flash.NewsFlash \
+  de.schmidhuberj.tubefeeder
 
 echo "🌬️ Installing CoolerControl..."
 curl -1sLf 'https://dl.cloudsmith.io/public/coolercontrol/coolercontrol/setup.deb.sh' | sudo -E bash
