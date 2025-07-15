@@ -21,7 +21,8 @@ sudo apt -y install \
   libavcodec-extra ffmpeg mpv qbittorrent timeshift tldr neofetch openssh-server \
   synaptic curl wget lshw stacer cpu-x btop lm-sensors preload gamemode \
   xfce4-terminal libreoffice-writer firefox-esr mixxx yuzu easytag \
-  obsidian-icon-theme fonts-recommended variety kiwix foliate
+  obsidian-icon-theme fonts-recommended fonts-firacode fonts-jetbrains-mono \
+  variety kiwix foliate
 
 echo "📦 Installing Flatpak and adding Flathub..."
 sudo apt -y install flatpak
