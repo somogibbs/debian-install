@@ -14,7 +14,7 @@ sudo apt -y install \
   file-roller gnome-software-plugin-flatpak gnome-extra-icons \
   gnome-shell-extension-manager gnome-shell-extension-tiling-assistant \
   gnome-shell-extension-blur-my-shell gnome-shell-extension-dashtodock \
-  gnome-shell-extension-runcat
+  gnome-shell-extension-runcat gnome-shell-extension-workspace-indicator
 
 echo "📦 Installing APT applications..."
 sudo apt -y install \
@@ -53,6 +53,9 @@ sudo apt install ./bitwarden.deb
 
 echo "📝 Installing Joplin..."
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
+
+echo "Downloading Tiny Media Manager..."
+wget -O - https://release.tinymediamanager.org/v5/dist/tinyMediaManager-5.1.7-linux-amd64.tar.xz
 
 echo "🛡️ Setting up UFW firewall..."
 sudo apt -y install ufw
