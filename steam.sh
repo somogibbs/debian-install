@@ -4,7 +4,7 @@
 set -e  # Exit on error
 
 # Enable contrib, non-free, and backport repositories
-echo "deb http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware" | sudo tee -a /etc/apt/sources.list
+echo "deb http://deb.debian.org/debian trixie-backports main contrib non-free non-free-firmware" | sudo tee -a /etc/apt/sources.list
 
 # Update package list
 sudo apt update
