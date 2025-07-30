@@ -148,7 +148,7 @@ rm -rf ./tera_0.4.3-1_all.deb
 
 ## 🎮 Get Latest PCSX2 Release
 ```bash
-wget https://github.com/PCSX2/pcsx2/releases/download/v2.2.0/pcsx2-v2.2.0-linux-appimage-x64-Qt.AppImage
+wget https://github.com/PCSX2/pcsx2/releases/download/v2.4.0/pcsx2-v2.4.0-linux-appimage-x64-Qt.AppImage)
 ```
 
 ---
@@ -161,7 +161,7 @@ curl -JLO https://rpcs3.net/latest-appimage
 ---
 
 ## 🐬 GitHub Dolphin Emulator AppImage  
-🔗 [Dolphin Releases](https://github.com/pkgforge-dev/Dolphin-emu-AppImage/releases)
+🔗 [Dolphin Releases](https://github.com/pkgforge-dev/Dolphin-emu-AppImage/releases/latest)
 
 ---
 
