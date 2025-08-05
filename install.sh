@@ -22,7 +22,7 @@ sudo apt -y install \
   synaptic curl wget lshw stacer cpu-x btop lm-sensors preload gamemode \
   xfce4-terminal libreoffice-writer firefox-esr mixxx yuzu easytag \
   obsidian-icon-theme fonts-recommended fonts-firacode fonts-jetbrains-mono \
-  variety kiwix calibre mate-calc
+  variety kiwix calibre 
 
 echo "📦 Installing Flatpak and adding Flathub..."
 sudo apt -y install flatpak
@@ -35,8 +35,6 @@ flatpak install --noninteractive flathub \
   it.mijorus.gearlever \
   org.feichtmeier.Musicpod \
   com.usebottles.bottles \
-  io.gitlab.news_flash.NewsFlash \
-  de.schmidhuberj.tubefeeder
 
 echo "🌬️ Installing CoolerControl..."
 curl -1sLf 'https://dl.cloudsmith.io/public/coolercontrol/coolercontrol/setup.deb.sh' | sudo -E bash
