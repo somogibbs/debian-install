@@ -124,6 +124,8 @@ flatpak update
 flatpak list
 flatpak history
 ```
+To install a flatpak via terminal
+      `sudo flatpak install flathub` [package name]
 
 ---
 
