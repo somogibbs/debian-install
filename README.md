@@ -200,7 +200,7 @@ libgl1-mesa-dri:i386 steam-installer
 
 Enable backports to search for newest mesa drivers:
 ```bash
-echo "deb http://deb.debian.org/debian trixie-backports main contrib non-free" | sudo tee -a /etc/apt/sources.list
+echo "deb http://deb.debian.org/debian trixie-backports main contrib non-free non-free-firmware" | sudo tee -a /etc/apt/sources.list
 ```
 
 Search backports by adding -t bookworm-backports runner:
@@ -208,3 +208,4 @@ Search backports by adding -t bookworm-backports runner:
 sudo apt search mesa-vulkan-drivers -t trixie-backports
 sudo apt install mesa-vulkan-drivers -t trixie-backports
 ```
+Note - Trixie released August 2025 so backports will be empty for a while.
