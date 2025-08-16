@@ -45,6 +45,14 @@ sudo apt install ./bitwarden.deb
 echo "📝 Installing Joplin..."
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 
+echo "🌐 Downloading Ungoogled Chromium AppImage..."
+wget https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/139.0.7258.127-1/ungoogled-chromium-139.0.7258.127-1-x86_64.AppImage
+
+echo "🛡️ Installing Proton VPN..."
+wget https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-stable-release_1.0.8_all.deb
+sudo dpkg -i ./protonvpn-stable-release_1.0.8_all.deb && sudo apt update
+sudo apt install proton-vpn-gnome-desktop
+
 echo "🛡️ Setting up UFW firewall..."
 sudo apt -y install ufw
 sudo ufw allow ssh
