@@ -20,9 +20,8 @@ echo "📦 Installing APT applications..."
 sudo apt -y install \
   libavcodec-extra ffmpeg mpv qbittorrent timeshift tldr fastfetch openssh-server \
   synaptic curl wget lshw stacer cpu-x btop lm-sensors preload gamemode \
-  xfce4-terminal libreoffice-writer firefox-esr yuzu easytag \
-  obsidian-icon-theme fonts-recommended fonts-firacode fonts-jetbrains-mono \
-  variety kiwix calibre 
+  xfce4-terminal libreoffice-writer firefox-esr yuzu easytag variety \
+  obsidian-icon-theme fonts-recommended fonts-firacode fonts-jetbrains-mono \ 
 
 echo "📦 Installing Flatpak and adding Flathub..."
 sudo apt -y install flatpak
