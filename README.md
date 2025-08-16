@@ -102,6 +102,11 @@ sudo apt install floorp
 
 ---
 
+## Ungoogled Chromium AppImage
+[Github AppImage](https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/139.0.7258.127-1/ungoogled-chromium-139.0.7258.127-1-x86_64.AppImage)
+
+---
+
 ## 📻 SomaFM GNOME Extension
 ```bash
 git clone http://github.com/alireza6677/somafm-radio-gnome-ext
