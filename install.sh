@@ -20,7 +20,7 @@ echo "📦 Installing APT applications..."
 sudo apt -y install \
   libavcodec-extra ffmpeg mpv qbittorrent timeshift tldr fastfetch openssh-server \
   synaptic curl wget lshw stacer cpu-x btop lm-sensors preload gamemode \
-  xfce4-terminal libreoffice-writer firefox-esr mixxx yuzu easytag \
+  xfce4-terminal libreoffice-writer firefox-esr yuzu easytag \
   obsidian-icon-theme fonts-recommended fonts-firacode fonts-jetbrains-mono \
   variety kiwix calibre 
 
@@ -32,14 +32,8 @@ echo "📦 Installing Flatpak applications..."
 flatpak install --noninteractive flathub \
   tv.plex.PlexDesktop \
   com.github.tchx84.Flatseal \
-  it.mijorus.gearlever \
   org.feichtmeier.Musicpod \
   com.usebottles.bottles \
-
-echo "🌬️ Installing CoolerControl..."
-curl -1sLf 'https://dl.cloudsmith.io/public/coolercontrol/coolercontrol/setup.deb.sh' | sudo -E bash
-sudo apt -y install coolercontrol
-sudo systemctl enable --now coolercontrold
 
 echo "📡 Installing Speedtest CLI..."
 curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
