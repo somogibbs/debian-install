@@ -13,6 +13,7 @@ Main rig install of Debian Linux with GNOME desktop environment. A list of post-
 - [🎮 Heroic Launcher](#-heroic-latest-deb-package)
 - [🦁 Brave Browser](#-brave-browser-install)
 - [🦊 Floorp Browser](#-floorp-browser-install)
+- [🌐 Ungoogled Chromium](#-ungoogled-chromium-appimage)
 - [📻 SomaFM GNOME Extension](#-soma-fm-desktop)
 - [📦 Flatpak & Tips](#-flatpak-install--tips)
 - [🧰 SSH Service Check](#-ssh-check)
@@ -102,7 +103,7 @@ sudo apt install floorp
 
 ---
 
-## Ungoogled Chromium AppImage
+## 🌐 Ungoogled Chromium AppImage
 [Github AppImage](https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/139.0.7258.127-1/ungoogled-chromium-139.0.7258.127-1-x86_64.AppImage)
 
 ---
