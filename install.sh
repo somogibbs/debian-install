@@ -46,9 +46,6 @@ sudo apt install ./bitwarden.deb
 echo "📝 Installing Joplin..."
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 
-echo "🎬 Downloading Tiny Media Manager..."
-wget -O - https://release.tinymediamanager.org/v5/dist/tinyMediaManager-5.1.8-linux-amd64.tar.xz
-
 echo "🛡️ Setting up UFW firewall..."
 sudo apt -y install ufw
 sudo ufw allow ssh
