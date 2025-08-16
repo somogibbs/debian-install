@@ -130,11 +130,10 @@ To install a flatpak via terminal
 ---
 
 ## 🧰 SSH Check
-```bash
-service ssh status
-sudo systemctl status ssh
-sudo systemctl enable --now ssh
-```
+To check if SSH is running 
+`service ssh status` or  `sudo systemctl status ssh`
+To start up SSH
+`sudo systemctl enable --now ssh`
 
 ---
 
@@ -176,7 +175,7 @@ curl -JLO https://rpcs3.net/latest-appimage
 ```bash
 sudo apt install pcsxr pcsx2 dolphin-emu yuzu
 ```
-
+Note that pcsx2 is pretty out of date
 ---
 
 ## 🧪 Steam CLI Install
