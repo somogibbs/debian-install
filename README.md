@@ -181,9 +181,9 @@ Note that pcsx2 is pretty out of date
 
 ## 🧪 Steam CLI Install
 
-Edit your `/etc/apt/sources.list`:
+Edit your `/etc/apt/sources.list` to include "non-free" sources  
 ```bash
-deb http://deb.debian.org/debian/ bookworm main contrib non-free
+deb http://deb.debian.org/debian/ trixie main contrib non-free
 ```
 
 Enable multiarch + update:
@@ -200,11 +200,11 @@ libgl1-mesa-dri:i386 steam-installer
 
 Enable backports to search for newest mesa drivers:
 ```bash
-echo "deb http://deb.debian.org/debian bookworm-backports main contrib non-free-firmware" | sudo tee -a /etc/apt/sources.list
+echo "deb http://deb.debian.org/debian trixie-backports main contrib non-free" | sudo tee -a /etc/apt/sources.list
 ```
 
 Search backports by adding -t bookworm-backports runner:
 ```bash
-sudo apt search mesa-vulkan-drivers -t bookworm-backports
-sudo apt install mesa-vulkan-drivers -t bookworm-backports
+sudo apt search mesa-vulkan-drivers -t trixie-backports
+sudo apt install mesa-vulkan-drivers -t trixie-backports
 ```
