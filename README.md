@@ -176,6 +176,7 @@ curl -JLO https://rpcs3.net/latest-appimage
 sudo apt install pcsxr pcsx2 dolphin-emu yuzu
 ```
 Note that pcsx2 is pretty out of date
+
 ---
 
 ## 🧪 Steam CLI Install
