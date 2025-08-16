@@ -198,7 +198,7 @@ sudo apt install mesa-vulkan-drivers libglx-mesa0:i386 mesa-vulkan-drivers:i386 
 libgl1-mesa-dri:i386 steam-installer
 ```
 
-Enable backports:
+Enable backports to search for newest mesa drivers:
 ```bash
 echo "deb http://deb.debian.org/debian bookworm-backports main contrib non-free-firmware" | sudo tee -a /etc/apt/sources.list
 ```
