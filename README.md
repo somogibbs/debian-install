@@ -42,7 +42,6 @@ sudo apt install git
 git clone https://github.com/somogibbs/debian-install.git
 cd debian-install
 chmod +x install.sh
-chmod +x steam.sh
 ./install.sh
 ```
 
