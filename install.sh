@@ -18,8 +18,8 @@ sudo apt -y install \
 
 echo "📦 Installing APT applications..."
 sudo apt -y install \
-  libavcodec-extra ffmpeg mpv qbittorrent timeshift tldr fastfetch openssh-server \
-  synaptic curl wget lshw stacer cpu-x btop lm-sensors preload gamemode \
+  libavcodec-extra ffmpeg mpv qbittorrent timeshift fastfetch openssh-server \
+  synaptic curl wget lshw cpu-x btop lm-sensors preload gamemode \
   xfce4-terminal libreoffice-writer firefox-esr yuzu easytag variety \
   obsidian-icon-theme fonts-recommended fonts-firacode fonts-jetbrains-mono \ 
 
@@ -57,9 +57,6 @@ echo "🛡️ Setting up UFW firewall..."
 sudo apt -y install ufw
 sudo ufw allow ssh
 sudo ufw enable
-
-echo "📚 Updating TLDR pages..."
-tldr --update
 
 echo "🎮 Installing Fallout GRUB theme..."
 wget -O - https://github.com/shvchk/fallout-grub-theme/raw/master/install.sh | bash
