@@ -34,6 +34,7 @@ flatpak install --noninteractive flathub \
   com.github.tchx84.Flatseal \
   org.feichtmeier.Musicpod \
   com.usebottles.bottles \
+  it.mijorus.gearlever
 
 echo "📡 Installing Speedtest CLI..."
 curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
