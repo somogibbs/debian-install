@@ -14,7 +14,8 @@ sudo apt -y install \
   file-roller gnome-software-plugin-flatpak gnome-extra-icons \
   gnome-shell-extension-manager gnome-shell-extension-tiling-assistant \
   gnome-shell-extension-blur-my-shell gnome-shell-extension-dashtodock \
-  gnome-shell-extension-runcat gnome-shell-extension-workspace-indicator
+  gnome-shell-extension-runcat gnome-shell-extension-workspace-indicator \
+  gnome-shell-extension-gamemode
 
 echo "📦 Installing APT applications..."
 sudo apt -y install \
