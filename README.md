@@ -58,7 +58,7 @@ Remove Debian’s default manager:
 sudo apt purge ifupdown -y
 sudo nano /etc/NetworkManager/NetworkManager.conf
 ```
-Ensure `managed=false` is set under `[ifupdown]`. Then:
+Ensure `managed=true` is set under `[ifupdown]`. Then:
 ```bash
 sudo systemctl restart NetworkManager
 sudo shutdown -r now
