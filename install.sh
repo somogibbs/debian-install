@@ -60,7 +60,10 @@ sudo ufw allow ssh
 sudo ufw enable
 
 echo "🎮 Installing Fallout GRUB theme..."
-wget -O - https://github.com/shvchk/fallout-grub-theme/raw/master/install.sh | bash
+wget -O - https://github.com/shvchk/fallout-grub-theme/raw/master/install.sh | bash  
+
+echo "📁 Creating folders..."
+mkdir ~/.fonts ~/.icons ~/.wallpapers ~/.themes ~/AppImages
 
 echo "📶 Configuring NetworkManager..."
 sudo apt purge ifupdown -y
