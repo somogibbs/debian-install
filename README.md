@@ -27,7 +27,11 @@ Main rig install of Debian Linux with GNOME desktop environment. A list of post-
 
 ---
 
-## ⚙️ Git and Run the Script
+## ⚙️ Git and Run the Script  
+
+Before anything be aware that the trixie installer will comment out your sources when installing from a usb! WTF!  
+So to install git run `sudo apt edit-sources` then make sure to remove the # (hashtag) from the sources line or change  
+the whole first line to `deb http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware`    
 
 ### 🔑 Set up Sudo
 If you enabled root during the standard.iso install:
