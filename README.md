@@ -70,14 +70,10 @@ sudo shutdown -r now
 
 If these repo files are on a USB :
 
-To list all drives
-      `df -h`
-Enter into file folder
- `cd /path/to/your/script`
-Make the script executable
- `chmod +x your-script.sh`
-Then run the script
-`./your-script.sh`
+To list all drives - `df -h`    
+Enter into file folder - `cd /path/to/your/script`    
+Make the script executable - `chmod +x your-script.sh`    
+Then run the script - `./your-script.sh`  
 
 ---
 
