@@ -8,7 +8,7 @@ Main rig install of Debian Linux with GNOME desktop environment. A list of post-
 
 - [⚙️ Git and Run the Script](#️-git-and-run-the-script)
 - [📶 Post-Install WiFi Setup](#-post-install-wifi-setup)
-- [🔐 Setup Sudo](#-setup-sudo)
+- [🔐 If Scripts are Local](#-if-scripts-are-local)
 - [🖨️ Lychee Slicer](#-lychee-slicer-deb-package)
 - [🎮 Heroic Launcher](#-heroic-latest-deb-package)
 - [🦁 Brave Browser](#-brave-browser-install)
@@ -66,21 +66,23 @@ sudo shutdown -r now
 
 ---
 
-## 🔐 Setup Sudo
+## 🔐 If scripts are local
 
-If root was configured:
-```bash
-su root
-apt install sudo
-sudo usermod -aG sudo your-username
-groups your-username
-sudo shutdown -r now
-```
+If these repo files are on a USB :
+
+To list all drives
+      `df -h`
+Enter into file folder
+ `cd /path/to/your/script`
+Make the script executable
+ `chmod +x your-script.sh`
+Then run the script
+`./your-script.sh`
 
 ---
 
 ## 🖨️ Lychee Slicer .deb Package  
-🔗 [Lychee Slicer .deb](https://mango3d.io/download-lychee-slicer)
+🔗 [Lychee Slicer](https://mango3d.io/download-lychee-slicer)
 
 ---
 
