@@ -55,6 +55,10 @@ wget https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-st
 sudo dpkg -i ./protonvpn-stable-release_1.0.8_all.deb && sudo apt update
 sudo apt install proton-vpn-gnome-desktop
 
+echo "🎮 Installing Steam Installer..."
+sudo dpkg --add-architecture i386 && sudo apt update
+sudo apt install mesa-vulkan-drivers libglx-mesa0:i386 mesa-vulkan-drivers:i386 libgl1-mesa-dri:i386 steam-installer
+
 echo "🛡️ Setting up UFW firewall..."
 sudo apt -y install ufw
 sudo ufw allow ssh
@@ -66,10 +70,14 @@ wget -O - https://github.com/shvchk/fallout-grub-theme/raw/master/install.sh | b
 echo "📁 Creating folders..."
 mkdir ~/.fonts ~/.icons ~/.wallpapers ~/.themes ~/AppImages
 
+echo "📦 Removing unwanted packages..."
+sudo apt remove gnome-contacts gnome-calendar gnome-connections gnome-maps totem &&
+sudo apt autoremove -y
+
 echo "📶 Configuring NetworkManager..."
 sudo apt purge ifupdown -y
 sudo systemctl enable NetworkManager
 sudo systemctl start NetworkManager
 
-echo "🔁 Rebooting system to apply changes..."
+echo "🔁 Rebooting system..."
 sudo shutdown -r now
