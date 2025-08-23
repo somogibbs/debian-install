@@ -23,7 +23,9 @@ Main rig install of Debian Linux with GNOME desktop environment. A list of post-
 - [🐬 Dolphin Emulator](#-github-dolphin-emulator-appimage)
 - [🗂️ Emulators in Debian Repo](#-list-of-emulators-in-debian-repo)
 - [🎮 APT Emulators](#-psx-ps2-gc-switch-emulators-in-apt)
-- [🧪 Steam CLI Install](#-steam-cli-install)
+- [🎮 Steam CLI Install](#-steam-cli-install)
+- [🗂️ Create Custom Folders](#-create-custom-folders)
+- [🧰 Install CoolerControl](#-install-coolercontrol)
 
 ---
 
@@ -186,7 +188,7 @@ Note that pcsx2 is pretty out of date
 
 ---
 
-## 🧪 Steam CLI Install
+## 🕹️ Steam CLI Install 
 
 Edit your `/etc/apt/sources.list` to include "non-free" sources  
 ```bash
@@ -215,4 +217,42 @@ Search backports by adding -t trixie-backports runner:
 sudo apt search mesa-vulkan-drivers -t trixie-backports
 sudo apt install mesa-vulkan-drivers -t trixie-backports
 ```
-Note - Trixie released August 2025 so backports won't be available immediately.
+Note - Trixie released August 2025 so backports won't be available immediately. 
+
+---
+
+## 🗂️ Create Custom Folders 
+Create custom directories (if not present) and move files to new locations
+
+- Themes → `mkdir -p ~/.themes/` 
+- Icons & Cursors → `mkdir -p ~/.icons/` 
+- Fonts → `mkdir -p ~/.fonts/` 
+- Wallpapers → `mkdir -p ~/.wallpapers/`  
+- AppImages → `mkdir -p ~/.appimages` 
+- XFCE4 Terminal Themes → `mkdir -p ~/.local/share/xfce4/terminal/colorschemes` 
+- Rofi Themes → `mkdir -p ~/.config/rofi` 
+
+---
+
+## 🧰 Install CoolerControl
+- Get some requirements 
+`sudo apt install curl apt-transport-https`
+- Use curl to get repo
+`curl -1sLf \
+  'https://dl.cloudsmith.io/public/coolercontrol/coolercontrol/setup.deb.sh' \
+  | sudo -E bash`
+- Update repo and install
+`sudo apt update`
+`sudo apt install coolercontrol`
+
+---
+
+## Liquorix Kernel Install
+`curl -s 'https://liquorix.net/install-liquorix.sh' | sudo bash`
+ 
+---
+
+## Download TinyMediaManager (check version)
+`wget https://release.tinymediamanager.org/v5/dist/tinyMediaManager-5.1.8-linux-amd64.tar.xz`
+
+---
