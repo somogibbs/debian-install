@@ -1,6 +1,6 @@
 ## 🐧 Debian Install
 
-Main rig install of Debian Linux with GNOME desktop environment. A list of post-install customizations is listed after the initial install instructions. Includes commands to copy/paste in terminal and internet links.
+Standard Readme for my Debian Linux install with either GNOME, XFCE, or LXQT. A list of post-install customizations is listed after the initial install instructions in both commands and internet links.
 
 ---
 
@@ -33,9 +33,10 @@ Main rig install of Debian Linux with GNOME desktop environment. A list of post-
 
 ## ⚙️ Git and Run the Script  
 
-Before anything be aware that the trixie installer will comment out your sources when installing from a usb! WTF!  
-So to install git run `sudo apt edit-sources` then make sure to remove the # (hashtag) from the sources line or change  
-the whole first line to `deb http://deb.debian.org/debian trixie main contrib non-free non-free-firmware`    
+Before anything be aware that the trixie installer will comment out your apt sources when installing from a usb! WTF! The source list also
+doesn't include the web link to the Debian repo. So to install git run `sudo apt edit-sources`, pick nano as the editor, then add this line  
+`deb http://deb.debian.org/debian trixie main contrib non-free non-free-firmware` with no hashtag (#) at the beginning.  
+`Ctrl+o` to save and `Ctrl+x` to exit.
 
 ### 🔑 Set up Sudo
 If you enabled root during the standard.iso install:
@@ -44,7 +45,7 @@ apt install sudo
 adduser your-username sudo
 ```
 
-### ⬇️ Clone Repo
+### ⬇️ Clone Repo and Run Install Script
 ```bash
 sudo apt install git
 git clone https://github.com/somogibbs/debian-install.git
