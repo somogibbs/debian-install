@@ -26,6 +26,8 @@ Main rig install of Debian Linux with GNOME desktop environment. A list of post-
 - [🎮 Steam CLI Install](#-steam-cli-install)
 - [🗂️ Create Custom Folders](#-create-custom-folders)
 - [🧰 Install CoolerControl](#-install-coolercontrol)
+- [📦 Liquorix Kernel](#-liquorix-kernel-install)
+- [⚙️ Download TinyMediaManager](#-download-tinymediamanager)
 
 ---
 
@@ -247,12 +249,13 @@ Create custom directories (if not present) and move files to new locations
 
 ---
 
-## Liquorix Kernel Install
+## 📦 Liquorix Kernel Install
 `curl -s 'https://liquorix.net/install-liquorix.sh' | sudo bash`
  
 ---
 
-## Download TinyMediaManager (check version)
+## ⚙️ Download TinyMediaManager    
+Check the version if problems occur  
 `wget https://release.tinymediamanager.org/v5/dist/tinyMediaManager-5.1.8-linux-amd64.tar.xz`
 
 ---
