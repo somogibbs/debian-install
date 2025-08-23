@@ -23,7 +23,7 @@ Main rig install of Debian Linux with GNOME desktop environment. A list of post-
 - [🐬 Dolphin Emulator](#-github-dolphin-emulator-appimage)
 - [🗂️ Emulators in Debian Repo](#-list-of-emulators-in-debian-repo)
 - [🎮 APT Emulators](#-psx-ps2-gc-switch-emulators-in-apt)
-- [🎮 Steam CLI Install](#-steam-cli-install)
+- [🕹️ Steam CLI Install](#-steam-cli-install)
 - [🗂️ Create Custom Folders](#-create-custom-folders)
 - [🧰 Install CoolerControl](#-install-coolercontrol)
 - [📦 Liquorix Kernel](#-liquorix-kernel-install)
