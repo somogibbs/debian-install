@@ -8,7 +8,6 @@ Standard Readme for my Debian Linux install with either GNOME, XFCE, or LXQT. A 
 
 - [⚙️ Git and Run the Script](#️-git-and-run-the-script)
 - [📶 Post-Install WiFi Setup](#-post-install-wifi-setup)
-- [🔐 If Scripts are Local](#-if-scripts-are-local)
 - [🖨️ Lychee Slicer](#-lychee-slicer-deb-package)
 - [🎮 Heroic Launcher](#-heroic-latest-deb-package)
 - [🦁 Brave Browser](#-brave-browser-install)
@@ -68,17 +67,6 @@ Ensure `managed=true` is set under `[ifupdown]`. Then:
 sudo systemctl restart NetworkManager
 sudo shutdown -r now
 ```
-
----
-
-## 🔐 If scripts are local
-
-If these repo files are on a USB :
-
-To list all drives - `df -h`    
-Enter into file folder - `cd /path/to/your/script`    
-Make the script executable - `chmod +x your-script.sh`    
-Then run the script - `./your-script.sh`  
 
 ---
 
