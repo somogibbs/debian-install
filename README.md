@@ -32,14 +32,15 @@ Standard Readme for my Debian Linux install with either GNOME, XFCE, or LXQT. A 
 
 ## ⚙️ Git and Run the Script  
 
-Before anything be aware that the trixie installer will comment out your apt sources when installing from a usb! WTF! The source list also
-doesn't include the web link to the Debian repo. So to install git run `sudo apt edit-sources`, pick nano as the editor, then add this line  
+Before anything be aware that the trixie installer will comment out your apt sources when installing from a usb and the source list will
+not include a web link to the Debian repo if you don't select "yes" to adding a network mirror during install. 
+So if you run into problems obtaining packages type `sudo apt edit-sources`, pick nano as the editor, then add this line  
 `deb http://deb.debian.org/debian trixie main contrib non-free non-free-firmware` with no hashtag (#) at the beginning.  
 `Ctrl+o` to save and `Ctrl+x` to exit.
 
 ### 🔑 Set up Sudo
 If you enabled root during the standard.iso install:
-```bash
+```
 apt install sudo
 adduser your-username sudo
 ```
