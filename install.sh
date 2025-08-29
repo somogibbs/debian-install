@@ -22,7 +22,8 @@ sudo apt -y install \
   libavcodec-extra ffmpeg mpv qbittorrent timeshift fastfetch openssh-server \
   synaptic curl wget lshw cpu-x btop lm-sensors preload gamemode \
   xfce4-terminal libreoffice-writer firefox-esr yuzu easytag variety \
-  obsidian-icon-theme fonts-recommended fonts-firacode fonts-jetbrains-mono \ 
+  numix-icon-theme papirus-icon-theme obsidian-icon-theme fonts-recommended \
+  fonts-firacode fonts-jetbrains-mono  
 
 echo "📦 Installing Flatpak and adding Flathub..."
 sudo apt -y install flatpak
