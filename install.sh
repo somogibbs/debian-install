@@ -32,7 +32,6 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 echo "📦 Installing Flatpak applications..."
 flatpak install --noninteractive flathub \
   tv.plex.PlexDesktop \
-  com.github.tchx84.Flatseal \
   org.feichtmeier.Musicpod \
   com.usebottles.bottles \
   it.mijorus.gearlever
