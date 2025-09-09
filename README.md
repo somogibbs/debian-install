@@ -4,32 +4,6 @@ Standard Readme for my Debian Linux install with either GNOME, XFCE, or LXQT. A 
 
 ---
 
-## 🔗 Table of Contents
-
-- [⚙️ Git and Run the Script](#️git-and-run-the-script)
-- [📶 Post-Install WiFi Setup](#post-install-wifi-setup)
-- [🖨️ Lychee Slicer](#lychee-slicer-deb-package)
-- [🎮 Heroic Launcher](#heroic-latest-deb-package)
-- [🦁 Brave Browser](#brave-browser-install)
-- [🦊 Floorp Browser](#floorp-browser-install)
-- [📻 SomaFM GNOME Extension](#somafm-gnome-extension)
-- [📦 Flatpak & Tips](#flatpak-install--tips)
-- [🧰 SSH Service Check](#ssh-check)
-- [📡 Tera Radio](#install-tera-radio)
-- [🎮 PCSX2 AppImage](#get-latest-pcsx2-release)
-- [🕹️ RPCS3 AppImage](#download-rpcs3-appimage)
-- [🐬 Dolphin Emulator](#github-dolphin-emulator-appimage)
-- [🗂️ Emulators in Debian Repo](#emulators-in-debian-repo)
-- [🎮 APT Emulators](#psx-ps2-gc-switch-emulators-in-apt)
-- [🕹️ Steam CLI Install](#steam-cli-install)
-- [🗂️ Create Custom Folders](#create-custom-folders)
-- [🧰 Install CoolerControl](#install-coolercontrol)
-- [📦 Liquorix Kernel](#liquorix-kernel-install)
-- [⚙️ Download TinyMediaManager](#download-tinymediamanager)
-- [⚙️ Change Grub Wallpaper Resolution](#change-grub-wallpaper-resolution-if-needed)
-
----
-
 ## ⚙️ Git and Run the Script  
 
 Before anything be aware that the trixie installer will comment out your apt sources when installing from a usb and the source list will not include a web link to the Debian repo if you don't select "yes" to adding a network mirror during install. 
