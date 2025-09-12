@@ -6,7 +6,7 @@ Standard Readme for my Debian Linux install with either GNOME, XFCE, or LXQT. A 
 
 ## ⚙️ Git and Run the Script  
 
-Before anything be aware that the trixie installer will comment out your apt sources when installing from a usb and the source list will not include a web link to the Debian repo if you don't select "yes" to adding a network mirror during install. 
+Before anything be aware that the trixie standard iso will comment out your apt source line when installing from a usb and the source list doesn't include a web link Debian repos.  There also is no option to add a network mirror during install.  WTF?
 So if you run into problems obtaining packages type `sudo apt edit-sources`, pick nano as the editor, then add this line  
 `deb http://deb.debian.org/debian trixie main contrib non-free non-free-firmware` with no hashtag (#) at the beginning.  
 `Ctrl+o` to save and `Ctrl+x` to exit.
